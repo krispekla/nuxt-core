@@ -13,5 +13,6 @@ export default defineNuxtConfig({
 		'@nuxt/content',
 		'@nuxtjs/tailwindcss',
 		'@pinia/nuxt',
+		'@nuxtjs/i18n',
 	],
 });
