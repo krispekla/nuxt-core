@@ -5,6 +5,6 @@ const { myLayer } = useAppConfig();
 <template>
 	<div>
 	     	<h1>Hello World!</h1>
-				<pre>{{ myLayer }}</pre>
+			 	<pre>{{ myLayer }}</pre>
 	</div>
 </template>
