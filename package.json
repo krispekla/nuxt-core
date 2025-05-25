@@ -11,7 +11,8 @@
 		"preview": "nuxt preview .playground",
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"prepare": "husky"
 	},
 	"devDependencies": {
 		"@nuxt/content": "^3.5.1",
@@ -30,6 +31,7 @@
 		"eslint-config-prettier": "^10.1.5",
 		"eslint-plugin-prettier": "^5.4.0",
 		"happy-dom": "^17.4.7",
+		"husky": "^9.1.7",
 		"nuxt": "^3.17.4",
 		"prettier": "^3.5.3",
 		"prettier-plugin-tailwindcss": "^0.6.11",
